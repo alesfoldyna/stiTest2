@@ -21,3 +21,13 @@ public class CV03 {
     }
     
 }
+public class CV03 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+    }
+    
+}

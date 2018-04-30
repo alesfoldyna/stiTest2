@@ -19,3 +19,11 @@ public class Parser {
         
     }
 }
+public class Parser {
+    String separator;
+    ArrayList<Person> output;
+    
+    Parser(ArrayList<String> listOfString){
+        
+    }
+}
