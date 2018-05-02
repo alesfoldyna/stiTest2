@@ -26,4 +26,11 @@ public class Parser {
     Parser(ArrayList<String> listOfString){
         
     }
+public class Parser {
+    String separator;
+    ArrayList<Person> output;
+    
+    Parser(ArrayList<String> listOfString){
+        
+    }
 }

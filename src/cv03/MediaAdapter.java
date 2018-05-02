@@ -29,5 +29,21 @@ public class MediaAdapter implements IMediaPlayer{
             advanceMediaPlayer.playVlc(audioType, fileName);
         }
     }
+@Override
+    public void play(String audioType, String fileName) {
+        if(audioType.equalsIgnoreCase("mp4")){
+            advanceMediaPlayer.playMp4(audioType, fileName);
+        } else if (audioType.equalsIgnoreCase("vlc")){
+            advanceMediaPlayer.playVlc(audioType, fileName);
+        }
+    }
+@Override
+    public void play(String audioType, String fileName) {
+        if(audioType.equalsIgnoreCase("mp4")){
+            advanceMediaPlayer.playMp4(audioType, fileName);
+        } else if (audioType.equalsIgnoreCase("vlc")){
+            advanceMediaPlayer.playVlc(audioType, fileName);
+        }
+    }
     
 }
